@@ -1,0 +1,139 @@
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("restoran.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+/* Form dan Struk Container */
+form,
+.struk {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Label dan Input */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Tombol Umum */
+button[type="button"],
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Form Pesanan */
+.input-row,
+.pesanan-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.input-row input,
+.pesanan-row input {
+  flex: 1;
+  padding: 8px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.field-group {
+  margin-bottom: 10px;
+}
+
+.pesanan-row button {
+  padding: 8px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pesanan-row button:hover {
+  background: #c82333;
+}
+
+/* Logo di Struk */
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  max-width: 120px;
+  height: auto;
+}
+
+/* Tabel Struk */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 1px solid #aaa;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+h3 {
+  text-align: right;
+  margin-top: 15px;
+}
